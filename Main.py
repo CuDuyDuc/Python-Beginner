@@ -44,13 +44,23 @@ while i < len(thislist):
   i = i + 1
 
 # Sắp xếp list 
-numList = [100, 50, 65, 82, 23]
+numList = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 numList.sort()
 print(numList)
 
 # Sắp xếp list (giảm dần) reverse = True
-numList.sort(reverse= True)
+numList.reverse()
 print(numList)
+
+# Lấy phần tử thông qua chỉ mục
+newNumList = numList[::1]
+print(newNumList)
+
+newNumList = numList[::2]
+print(newNumList)
+
+newNumList = numList[::-1]
+print(newNumList)
 
 # /=============================================================/
 # Tuple là một tập hợp được sắp xếp (có chỉ mục) và không thể thay đổi. Cho phép các thành viên trùng lặp.
