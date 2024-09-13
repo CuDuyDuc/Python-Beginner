@@ -52,14 +52,14 @@ print(numList)
 numList.reverse()
 print(numList)
 
-# Lấy phần tử thông qua chỉ mục
+# Lấy phần tử thông qua bước nhảy
 newNumList = numList[::1]
 print(newNumList)
 
-newNumList = numList[::2]
+newNumList = numList[::2] 
 print(newNumList)
 
-newNumList = numList[::-1]
+newNumList = numList[::-1] # đảo ngược list vs chỉ mục âm
 print(newNumList)
 
 # /=============================================================/
